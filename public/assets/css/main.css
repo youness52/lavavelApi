@@ -1,0 +1,393 @@
+#sebnApp {
+    margin: 0 auto !important;
+    margin-bottom: 100px !important;
+}
+
+#sebnApp>div {
+    width: 100% !important;
+}
+
+#sebnApp>h2 {
+    cursor: pointer !important;
+    text-decoration: underline !important;
+    width: 0% !important;
+}
+
+#sebnApp .ds-flx {
+    display: flex !important;
+    align-items: center !important;
+}
+
+#sebnApp .ds-grd {
+    display: grid !important;
+}
+
+#sebnApp .plc-cnt {
+    place-items: center !important;
+}
+
+#sebnApp .aln-btw {
+    justify-content: space-between !important;
+}
+
+#sebnApp span {
+    color: skyblue !important;
+    font-size: 1.5rem !important;
+}
+
+#sebnApp button {
+    cursor: pointer !important;
+    background: white;
+    border: solid 1px black;
+    border-radius: 4px;
+}
+
+#sebnApp input {
+    text-align: center !important;
+}
+
+#sebnApp ul {
+    list-style: none !important;
+    width: 100% !important;
+    margin: 2% 0 3% 0 !important;
+    padding: 0 !important;
+}
+
+#sebnApp p {
+    margin: 0 !important;
+    font-size: 1.1rem;
+}
+
+#sebnApp .clr-red {
+    color: red !important;
+    box-shadow: white 2px 2px !important;
+}
+
+#sebnApp .clr-green {
+    color: rgb(0, 255, 0) !important;
+    box-shadow: white 2px 2px !important;
+}
+
+#sebnApp .clr-black {
+    color: black !important;
+    box-shadow: white 2px 2px !important;
+}
+
+#sebnApp .ds-drc {
+    flex-direction: column !important;
+}
+
+#sebnApp .click {
+    color: rgb(0, 178, 249) !important;
+}
+
+#sebnApp .none {
+    display: none !important;
+}
+
+/* ---------------------------- */
+#sebnApp .navbarLogos {
+    margin-bottom: 5% !important;
+}
+
+#sebnApp .navbarLogos .logo_sebn,
+#sebnApp .navbarLogos .logo_gretin {
+    width: 90px !important;
+    height: 90px !important;
+    background: url(../img/sebn/gretin.png) no-repeat 100%/100% !important;
+}
+
+#sebnApp .navbarLogos .logo_sebn {
+    background: url(../img/sebn/sbn.png) no-repeat 100%/100% !important;
+}
+
+
+
+#sebnApp .btnR-date {
+    justify-content: space-evenly !important;
+}
+
+#sebnApp .btn-skyblue {
+    background: skyblue !important;
+    border: none !important;
+    border-radius: 7px !important;
+    width: 150px !important;
+    height: 25px !important;
+    border-radius: 4px !important;
+}
+
+#sebnApp .cnt-light-add .card,
+#sebnApp .cnt-downtime-add .card,
+#sebnApp .cards .card,
+#sebnApp ._footer .card {
+    width: 100% !important;
+    margin: 1% !important;
+    padding: 0 2% !important;
+    border: solid black 2px !important;
+    border-radius: 7px !important;
+}
+
+#sebnApp ._footer .card:nth-child(1) {
+    margin-left: 0 !important;
+}
+
+#sebnApp ._footer .card:nth-child(2) {
+    margin-right: 0 !important;
+}
+
+#sebnApp .cards .card:nth-child(1),
+#sebnApp .cards .card:nth-child(4) {
+    margin: 1% 0 !important;
+}
+
+#sebnApp .cnt-controller {
+    justify-content: space-around !important;
+    margin: 5% 0 !important;
+}
+
+#sebnApp .cnt-controller .btn-setting {
+    width: 10% !important;
+    justify-content: center;
+    display: flex;
+    margin: 5% 0;
+}
+
+#sebnApp .cnt-controller .btn-setting p {
+    color: white !important;
+    font-size: .9rem !important;
+}
+
+#sebnApp .cnt-controller .btn-setting button {
+    border: none !important;
+    background: transparent !important;
+    color: white !important;
+
+}
+
+#sebnApp .cnt-controller .btn-setting>div {
+
+    margin: 10px 0 !important;
+}
+
+#sebnApp .cnt-controller .btn-setting>div>* {
+    margin: 4% !important;
+}
+
+#sebnApp .cnt-controller .Manual {
+    height: 20px !important;
+    width: 2px !important;
+    background: white !important;
+}
+
+#sebnApp .cnt-controller .Discontinuous {
+    width: 20% !important;
+    height: 2px !important;
+    background: white !important;
+    margin-right: 40% !important;
+}
+
+#sebnApp .cnt-controller .Continuous {
+    width: 20% !important;
+    height: 2px !important;
+    background: white !important;
+    margin-left: 40% !important;
+}
+
+#sebnApp .cnt-controller>button {
+    width: 120px !important;
+    height: 120px !important;
+    border: none !important;
+}
+
+#sebnApp .cnt-controller .btn-ONoff {
+    background: url(../img/sebn/offBtn.png) no-repeat 100%/100% !important;
+}
+
+#sebnApp .cnt-controller .btn-off {
+    background: url(../img/sebn/oFFoFF.png) no-repeat 100%/100% !important;
+}
+
+#sebnApp .cnt-controller .btn-OFFon {
+
+    background: url(../img/sebn/ONoFF.png) no-repeat 100%/100% !important;
+}
+
+#sebnApp .cnt-controller .btn-on {
+    background: url(../img/sebn/onBtn.png) no-repeat 100%/100% !important;
+
+}
+
+#sebnApp ._footer>div:nth-child(1) {
+    width: 30% !important;
+}
+
+#sebnApp ._footer .prrogris {
+    width: 100% !important;
+    height: 35px !important;
+    background: green !important;
+}
+
+#sebnApp ._footer .card {
+    height: 120px !important;
+}
+
+#sebnApp ._footer .card p {
+    margin-left: 90% !important;
+}
+
+#sebnApp .navbar-settings p,
+#sebnApp .navbar-production p {
+    cursor: pointer !important;
+    text-decoration: underline !important;
+}
+
+#sebnApp .navbar-settings p:nth-child(2),
+#sebnApp .navbar-production p:nth-child(2) {
+    margin: 0 2% !important;
+}
+
+#sebnApp .cnt-srttings>div {
+    width: 30% !important;
+}
+
+#sebnApp .cnt-srttings>div:nth-child(3) {
+    justify-content: center !important;
+}
+
+#sebnApp .cnt-srttings>div:nth-child(3) {
+    justify-content: center !important;
+}
+
+#sebnApp .cnt-srttings .btn-skyblue {
+    width: 120px !important;
+    margin: 5%;
+}
+
+#sebnApp .table {
+    width: 100% !important;
+}
+
+#sebnApp .thead,
+#sebnApp .tbody {
+    display: block !important;
+}
+
+#sebnApp .tbody {
+    height: 250px !important;
+    overflow-y: auto !important;
+    overflow-x: hidden !important;
+}
+
+#sebnApp .tr {
+    padding: 0 5% !important;
+}
+
+#sebnApp .cnt-light .days li,
+#sebnApp .cnt-downtime .days li {
+    border: solid black 1px !important;
+    border-radius: 4px !important;
+    padding: 1% !important;
+    cursor: pointer !important;
+}
+
+#sebnApp .cnt-light .btnAdd,
+#sebnApp .cnt-downtime .btnAdd {
+    margin: 0 auto !important;
+    width: 150px !important;
+}
+
+#sebnApp .cnt-light-add div input,
+#sebnApp .cnt-downtime-add div input {
+    border-radius: 4px !important;
+}
+
+#sebnApp .cnt-light-add,
+#sebnApp .cnt-downtime-add {
+    flex-direction: row !important;
+    flex-wrap: wrap !important;
+}
+
+#sebnApp .cnt-downtime-add .card {
+    width: 27% !important;
+    height: 55px !important;
+    flex-direction: row !important;
+}
+
+#sebnApp .cnt-light-add .card {
+    height: 55px !important;
+    flex-direction: row !important;
+    width: 43% !important;
+}
+
+#sebnApp .cnt-light-add .delete,
+#sebnApp .cnt-downtime-add .delete {
+    border: none !important;
+    background: rgb(255, 95, 95) !important;
+    padding: 2% !important;
+    color: white !important;
+    border-radius: 4px !important;
+}
+
+#sebnApp .cnt-language div {
+    justify-content: center !important;
+    flex-direction: initial;
+    height: 100px;
+}
+
+#sebnApp .cnt-language div select {
+    height: 27px !important;
+    margin: 0 5%;
+}
+
+#sebnApp .mode_select {
+    width: 130px;
+    height: 27px;
+}
+
+@media only screen and (max-width: 600px) {
+    .cards {
+        flex-direction: column !important;
+    }
+
+    #sebnApp .cnt-controller {
+        flex-direction: column !important;
+    }
+
+    #sebnApp ._footer {
+        flex-direction: column !important;
+    }
+
+    #sebnApp ._footer>div:nth-child(1) {
+        width: 100% !important;
+    }
+
+    #sebnApp ._footer .card {
+        margin: 0% !important;
+    }
+
+    #sebnApp .cnt-srttings>div {
+        width: 100% !important;
+    }
+
+    #sebnApp .cnt-light .days li,
+    #sebnApp .cnt-downtime .days li {
+        padding: 0% !important;
+    }
+
+    #sebnApp .cnt-downtime-add .card {
+        width: 100% !important;
+    }
+
+    #sebnApp .cnt-light-add,
+    #sebnApp .cnt-downtime-add {
+        flex-direction: column !important;
+    }
+
+    #sebnApp .cnt-light-add .card {
+        width: 100% !important;
+    }
+
+    #sebnApp .cnt-controller .btn-setting {
+        width: 100% !important;
+    }
+}
